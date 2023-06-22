@@ -1,0 +1,221 @@
+body {
+    background-color: #7CA3B1;
+    color: white;
+    text-align: center;
+     
+}
+
+a{text-decoration: none;}
+
+#wrapper {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header nav nav"
+        "pepeha mt river"
+        "pepeha hobbie hobbie"
+        "footer footer footer"; 
+        
+    grid-row-gap: 10px;
+        
+}
+
+
+#wrapper2 {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+
+        "pepeha mt river"
+        "pepeha hobbie hobbie"
+        "footer footer footer"; 
+        
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 20px;
+    font-family: "Arial";
+}
+
+
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-areas: "home showcase aboutme cultural "
+    "nav2 nav2 nav2 nav2";
+  grid-gap: 16px;
+    
+
+}
+
+
+#header {
+    grid-area: header;
+    background-color: #9CCADB;
+    color: white;
+  
+    font-family:  "STCaiyun";
+    font-size: 40px;
+}
+
+#nav {
+    grid-area: nav;
+    background-color: #9CCADB;
+    padding: 10px;
+   font-family: "Impact";
+    font-style: italic;
+}
+
+
+#nav2 {
+    background-color: ##9CCADB;
+    grid-area: nav2;
+    
+}
+
+
+#home {
+    grid-area: home;
+   background-color: #3D9CBF;
+    padding: 15px;
+
+}
+
+#aboutme {
+    grid-area: aboutme;
+    background-color: #3D9CBF;
+    padding: 15px;
+
+}
+
+#cultural {
+    grid-area: cultural; 
+    background-color: #3D9CBF;
+    padding: 15px;
+
+}
+
+#showcase {
+    grid-area: showcase;
+    background-color: #3D9CBF;
+  padding: 15px;
+}
+
+
+#pepeha {
+    grid-area: pepeha;
+    background-color: white;
+    color: black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#mt {
+    grid-area: mt;
+    background-color: white;
+    color: black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#river {
+    grid-area: river;
+    background-color: white;
+    color: black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hobbie {
+    grid-area: hobbie;
+    background-color: white;
+    color: black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+
+.footer {
+    grid-area: footer;
+    background-color: #9CCADB;
+    color: black;
+    font-family: "Comic Sans MS";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.left-align {
+  display: flex;
+  align-items: center;
+}
+
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.gap {
+    width: 10px;
+}
+
+.social-media span {
+  margin-right: 5px;
+}
+
+
+.right-align {
+   margin-left: auto;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
